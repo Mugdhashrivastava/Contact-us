@@ -1,20 +1,18 @@
-
-
-import './App.css'
-import ContactForm from './components/ContactForm/ContactForm'
-import ContactHeader from './components/ContactHeader/ContactHeader'
-import Navbar from './components/navbar/Navbar'
-
+import "./App.css";
+import ContactForm from "./components/ContactForm/ContactForm";
+import ContactHeader from "./components/ContactHeader/ContactHeader";
+import Navbar from "./components/navbar/Navbar";
 
 function App() {
   return (
-   <div>
-<Navbar />
-<ContactHeader/>
-<ContactForm />
-
-   </div>
-  )
+    <div>
+      <Navbar />
+      {/* <main className="main_container"> */}
+        <ContactHeader />
+        <ContactForm />
+      {/* </main> */}
+    </div>
+  );
 }
 
-export default App
+export default App;
